@@ -18,12 +18,11 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「➻𝐀𝐋𝐄𝐈𝐙𝐍-𝐌𝐃➻❥」
+let str = `╭「𝐁𝐎𝐓 𝐂𝐏」
 │➯𝙷𝚘𝚕𝚊,➟${taguser}
-│➯𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁:Aleizn
-│➯*Número*➟51992621601
-│➯*Yape:914079837*
-│➯https://www.instagram.com/ale.izn_20/
+│➯𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁:ALFREDO DEL RIO
+│➯*Número*➟+529871193049
+│➯https://www.instagram.com/invites/contact/?i=mv9qcp2haqrf&utm_content=g5fpqho
 │➯ғᴇᴄʜᴀ:➟${date}
 │➯ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
 │➯ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
@@ -31,11 +30,11 @@ let str = `╭「➻𝐀𝐋𝐄𝐈𝐙𝐍-𝐌𝐃➻❥」
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「➻❥*Grupos y cuentas*➻❥」
 │➯𝐁𝐎𝐓𝐂𝐈𝐓𝐎 𝐈𝐙𝐍
-│➯https://chat.whatsapp.com/HitUqoj58mEJoNKYDKJhUo
+│➯https://www.instagram.com/invites/contact/?i=mv9qcp2haqrf&utm_content=g5fpqho
 │➯𝐁𝐎𝐓𝐂𝐈𝐓𝐎 𝐈𝐙𝐍
-│➯https://chat.whatsapp.com/IOLX0V0sVbV7Od5FvxSDdr
+│➯https://www.instagram.com/invites/contact/?i=mv9qcp2haqrf&utm_content=g5fpqho
 │➯𝐁𝐎𝐓𝐂𝐈𝐓𝐎 𝐈𝐙𝐍
-│➯https://www.instagram.com/ale.izn_20/==
+│➯https://www.instagram.com/invites/contact/?i=mv9qcp2haqrf&utm_content=g5fpqho
 ︎╰───────────────╯`.trim()
 if (m.isGroup) {
 await conn.sendFile(m.chat, vn, 'naa.mp3', null, m, true, { type: 'audioMessage', ptt: true})
